@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customized T-Shirts</title>
+    <h2><center>Customized T-Shirts</center></h2>
+</head>
+<body>
+    
+    <form>
+    <table align="center">
+        <tr><td><h3 >Customzing Section</h3></td></tr>
+
+        <!--------------------- Tag Line ------------------------------------------>
+        <tr>
+        <td><b></b>Tagline</td>
+        <td><input type="text" name="Tagline_shirt" maxlength="100" placeholder="Your shirt's tagline" required>
+        (Max 100 Characters Allowed)
+        </td>
+        </tr>
+        
+
+        <!--------------------------Size of Shirt----------------------------------->
+<tr>
+    
+    <td>Size of Shirt</td>
+    <td>
+    <select name="Size" id="Size" >
+    <option value="-1">Size:</option>
+    <option value="1">XS</option>
+    <option value="2">S</option>
+    <option value="3">M</option>
+    <option value="4">L</option>
+    <option value="5">XL</option>
+    <option value="6">XXL</option>
+    <option value="7">XXXL</option>
+    </select>
+    </td>
+</tr>
+
+<tr>
+<td><label for="colorpicker">Colour:</label></td>
+  <td><input type="color" id="colorpicker" value="#800080"></td>
+</tr>
+
+<tr>
+    <td>Quantity</td>
+    <td><input type="text" name="Quantity" maxlength="50" placeholder="Quantity" required>
+    (Max 50 Quantity)
+    </td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td>
+        <input type="radio" name="Gender" value="Male" />
+        Male
+        <input type="radio" name="Gender" value="Female" />
+        Female
+        </td>
+        </tr>
+
+    <tr><td>    <h3><center>Contact and Delivery Details</center></h3></td></tr>
+
+    <tr>
+        <td>First Name</td>
+        <td><input type="text" name="FirstName" maxlength="50" placeholder="John" required>
+        (Max 50 Characters Allowed)
+        </td>
+        </tr>
+        
+        
+        <!------------------------ Last Name --------------------------------------->
+        <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="LastName" maxlength="50" placeholder="Fernandes"required>
+        (Max 50 Characters Allowed)
+        </td>
+        </tr>
+        
+        <!-------------------------- Email ID ------------------------------------->
+        <tr>
+        <td>Email ID</td>
+        <td><input type="email" name="EmailID" maxlength="100" placeholder="abc@gmail.com" required></td>
+        </tr>
+        
+        
+        
+        <!-------------------------- Mobile Number ------------------------------------->
+        <tr>
+        <td>Mobile Number</td>
+        <td>
+           +91 <input type="text" name="MobileNumber" maxlength="10" placeholder="1234xxxxxx" required>
+           (10 Digits Allowed)
+        </td>
+        </tr>
+
+        <!------------------------- Address ---------------------------------->
+<tr>
+    <td>Address<br /><br /><br /></td>
+    <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+    </tr>
+    
+    <!-------------------------- City ------------------------------------->
+    <tr>
+    <td>City</td>
+    <td><input type="text" name="City" maxlength="50" placeholder="Bangalore"/>
+    (Max 50 Characters Allowed)
+    </td>
+    </tr>
+    
+    
+    
+    <!----- -------------------- Pin Code-------------------------------------->
+    <tr>
+    <td>Pin Code</td>
+    <td><input type="Number" name="PinCode" maxlength="6" placeholder="560068"/>
+    (Max 6 Numbers Allowed)
+    </td>
+    </tr>
+    
+    
+    
+    <!---------------------------- State ----------------------------------->
+    <tr>
+    <td>State</td>
+    <td>
+        <select name="Size" id="Size">
+        <option value="-1">State</option>
+        <option value="1">Maharashtra</option>
+        <option value="2">Uttar Pradesh</option>
+        <option value="3">Gujrat</option>
+        <option value="3">Goa</option>
+
+        <option value="3">Punjab</option>
+
+        </select>
+        </td>
+    </tr>
+   
+    <tr>
+        <td>Delivery needed by</td>
+<td>
+    <input type="date" id="Date" name="Date">
+</td>
+</tr>
+
+
+<tr>
+    <td>Mode of Payment</td>
+    <td>
+    <input type="radio" name="Mode" value="COD" />
+    COD
+    <input type="radio" name="Mode" value="Online" />
+    Online
+    </td>
+    </tr>
+
+    <tr>
+        <td>This order contains a gift</td>
+        <td>
+        <input type="radio" name="Mode" value="COD" />
+        Yes
+        <input type="radio" name="Mode" value="Online" />
+        No
+        </td>
+        </tr>
+
+
+    
+
+        <tr>
+            <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </td>
+            </tr>
+        </table>
+        </form>
+</body>
+</html>
